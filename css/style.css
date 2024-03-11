@@ -1,0 +1,286 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    background-color: #5ce1e6;
+    justify-content: space-between;
+}
+header > .logo > a img {
+    width: auto;
+    height: auto;
+    padding-left: 150px;
+}
+header > .search > form {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+}
+header > .search > form > button {
+    background-color: white;
+    margin-top: 25px;
+    padding: 15px;
+    border: none;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+}
+header > .search > form > button:hover {
+    background-color: fuchsia;
+}
+header > .search > form >  input[type=search] {
+    width: 500px;
+    padding:  15px;
+    margin-top: 25px;   
+    margin-right: 10px;
+    border: none;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    background-color: none  ;
+    font-size: 14px;
+    outline: 0;
+}
+header > .header-nav > ul {
+    width: 80%;
+    margin-top: 10px;
+    margin-right: 100px;
+    display: flex;
+}
+header > .header-nav > ul > li {
+    width: 130px;
+    margin-top: 30px;
+    list-style: none;
+}
+header > .header-nav > ul > li a {
+    color: black;
+}
+nav {
+    width: 80%;
+    margin: 0 auto;
+    
+}
+nav > ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+nav > ul > li:hover a {
+    color: fuchsia;
+    background-color: #5ce1e6;
+}
+nav > ul > li > a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    
+    display: block;
+    padding: 15px;
+    text-align: center;
+}
+.slides img {
+    width: 80%;
+    height: 300px;
+    margin-left: 10%;
+}
+.main > .menu {
+    width: 80%;
+    height: 40px;
+    margin: 30px 10%;
+    padding: 10px;
+    background-color: #5ce1e6;
+}
+.main > .menu > ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+.main > .menu > ul > li:hover a {
+    color: fuchsia;
+}
+.main > .menu > ul > li > a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.main > .cacsanpham {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+.main > .cacsanpham > .sanpham {
+    width: 30%;
+    margin: 5px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+.main > .cacsanpham > .sanpham img {
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+}
+.main > .cacsanpham > .sanpham img:hover {
+    transform: scale(1.1);
+}
+.main > .cacsanpham > .sanpham > a > h4 {
+    font-size: 14px;
+    background-color: #5ce1e6;
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 5px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+.main > .cacsanpham > .sanpham a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+.main > .cacsanpham > .sanpham > a:hover {
+    color: fuchsia;
+    background-color: #5ce1e6;
+}
+.main > .cacsanpham > .sanpham > .name {
+    width: 80%;
+    margin: 0 auto;
+    color: black;
+    font-size: 14px;
+    text-align: center;
+    padding: 10px;
+}
+.main > .cacsanpham > .sanpham > .cost {
+    width: 80%;
+    margin: 0 auto;
+    color: black;
+    font-size: 16px;
+    text-align: center;
+}
+.text {
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #5ce1e6;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+.text > h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 18px;
+    color: fuchsia;
+
+    padding: 20px;
+}
+.text > .p1 {
+    text-align: center;
+    font-size: 16px;
+    font-style: italic;
+    
+}
+.text > .p2 {
+    width: auto;
+    margin: 0 auto;
+    text-align: justify;
+    font-size: 16px;
+}
+.text > .p2 a{
+    text-decoration: none;
+    color: red;
+}
+.text > .p2 a:hover {
+    color: fuchsia;
+}
+footer {
+    background-color: #5ce1e6;
+    margin-top: 10px;
+    color: white;
+}
+footer > .foottop,
+footer > .footmid {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+footer > .foottop h5,
+footer > .footmid h5 {
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 20px 0;
+}
+footer > .foottop a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+footer > .foottop a:hover {
+    color: fuchsia;
+}
+footer > .foottop p {
+    margin: 10px 0;
+} 
+footer > .footmid > .col1 {
+    width: 20%;
+}
+footer > .footmid > .col2 {
+    width: 20%;
+}
+footer > .footmid > .col2 a {
+    color: white;
+}
+footer > .footmid > .col3 {
+    width: 40%;
+    padding-right: 100px;
+}
+footer > .footmid > .col3 > form .id {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+footer > .footmid > .col3 input[type=text],
+footer > .footmid > .col3 input[type=email] {
+    width: 100%;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+footer > .footmid > .col3 input[type=submit] {
+    cursor: pointer;
+    padding: 10px 10px;
+    background-color: cyan;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+footer > .footmid > .col3 input[type=submit]:hover {
+    background-color: fuchsia;
+}
+footer > .footbottom {
+    width: 100%;
+    height: 50px;
+    background-color: aqua;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    
+}
+footer > .footbottom a {
+    text-decoration: none;
+    color: gray
+}
+footer > .footbottom a:hover {
+    color: fuchsia;
+}
